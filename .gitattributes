@@ -1,4 +1,0 @@
-videos/forces.mov filter=lfs diff=lfs merge=lfs -text
-videos/generale.mov filter=lfs diff=lfs merge=lfs -text
-videos/prompting.mov filter=lfs diff=lfs merge=lfs -text
-videos/faiblesses.mov filter=lfs diff=lfs merge=lfs -text
