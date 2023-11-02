@@ -2028,10 +2028,14 @@ html {
     display: flex;
   }
   
-  .columns {
+  .videos-container {
     margin-top: 25px;
   }
   
+  .videos-row {
+    margin-top: 25px;
+  }
+
   .text-block {
     color: #444;
     margin-top: 38px;
