@@ -21,6 +21,10 @@ html {
     height: 0;
     display: none;
   }
+
+  .download-section {
+    margin-top: 20px;
+  }
   
   [hidden], template {
     display: none;
