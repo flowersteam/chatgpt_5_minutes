@@ -20,6 +20,7 @@
 <script type="text/javascript">
     $( document ).ready(function(){
         var userLang = navigator.language || navigator.userLanguage;
+        console.log(userLang)
         if ((userLang == "fr") || (userLang == "fr-FR")) {
             window.location.href = "{{ site.url }}/fr/"
         }
