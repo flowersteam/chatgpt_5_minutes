@@ -1,0 +1,49 @@
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- <h2>{{ post.title }}</h2>
+            <hr class="star-primary"> -->
+            <a href="{{ post.link }}" target="_blank" class="w-inline-block">
+              <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered main-img" alt="{{ post.alt }}">
+            </a>
+            {% if post.description %}
+            <div class="description">{{ post.description }}</div>
+            {% endif %}
+            <ul class="list-inline item-details">
+              <li>
+                <img src="{{ site.url }}/img/ccby.png" loading="lazy" width="77"/>
+              </li>
+              {% if post.project-date %}
+              <li>Date:
+                <strong>{{ post.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if post.download-link %}
+              <li>Download:
+                <a href="{{ post.download-link }}" download class="download">
+                  <i class="fa-solid fa-fw fa-download"></i>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

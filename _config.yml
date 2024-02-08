@@ -1,0 +1,99 @@
+# Site settings
+title: ChatGPT expliqué en 5 minutes
+email: 
+url: https://clementromac.github.io/test
+description: "La série vidéo « ChatGPT en 5 mn » a été réalisée par Alexandre Torres-Leguet, Clément Romac, Thomas Carta, Pierre-Yves Oudeyer, dans l'équipe Flowers du centre Inria de l'Université de Bordeaux. Elle est distribuée sous licence Creative Commons CC-BY."
+keywords: ""
+meta_author: Flowers Team
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: E73919 #80B3FF
+  secondary: 384257 #FD6E8A
+  secondary-dark: 384257 #A2122F
+
+# Footer settings
+footer:
+  copyright: Inria Flowers team
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/FlowersINRIA
+  - title: github
+    url: https://github.com/flowersteam
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: "posts"
+    values:
+      permalink: ""
+      lang: "en"
+  - scope:
+      path: "_posts/fr"
+      type: "posts"
+    values:
+      permalink: ""
+      lang: "fr"
+
+texts:
+  nav:
+    title:
+      fr: "ChatGPT expliqué en 5 minutes"
+      en: "ChatGPT explained in 5 minutes"
+    videos:
+      fr: "Vidéos"
+      en: "Videos"
+    about:
+      fr: "A propos"
+      en: "About"
+  header:
+    fr: "Dans cette série de vidéos destinée au grand public, <strong>l’équipe de recherche</strong> <a href='https://flowers.inria.fr/' target='_blank'>
+         <strong>Flowers du centre Inria de l'Université de Bordeaux</strong> 
+         </a>vous propose de mieux comprendre <strong>comment fonctionnent les modèles de langage comme ChatGPT en 5 minutes</strong>."
+    en: "In this series of videos intended for the general public, <a href='https://flowers.inria.fr/' target='_blank'>
+         <strong>the Flowers research team from the Inria center at the University of Bordeaux</strong></a> 
+         offers you a better understanding of <strong>how language models like ChatGPT work in 5 minutes</strong>."
+  videos-section:
+    title:
+      fr: "Vidéos"
+      en: "Videos"
+    cc-by-explanation:
+      fr: "Ces vidéos sont libres de droits, avec une licence Creative Commons CC-BY. Cela veut dire qu'elles peuvent être utilisées librement, à la condition que leur source soit citée (voir Crédits)."
+      en: "These videos are royalty-free, with a Creative Commons CC-BY license. This means that they can be used freely, provided that their source is cited (see Credits)."
+  about-section:
+    title:
+      fr: "A propos"
+      en: "About"
+    text:
+      fr: "Spécialisée dans l’Intelligence Artificielle développementale, l’équipe Flowers étudie notamment les récents gros modèles de langage (ChatGPT, Bard...). Constatant que la grande majorité des ressources éducatives sur ces modèles adoptait un format long et destiné à un public relativement averti, ce projet de vidéos au format court destiné à un public large (par exemple élèves et enseignants de collèges et lycées, et plus généralement aux non spécialistes de l'informatique ou de l'IA) est né.
+          <br/><br/>
+          Nous vous proposons donc de <strong>démystifier</strong> ces récents outils au travers de plusieurs vidéos courtes (la série est toujours en cours de construction et de nouvelles vidéos sont à venir)."
+      en: "Specializing in developmental Artificial Intelligence, the Flowers team studies recent large language models (ChatGPT, Bard, etc.). Noting that the vast majority of educational resources on these models adopted a long format and intended for a relatively informed audience, this project of short format videos intended for a wide audience (for example middle and high school students and teachers, and more generally for not specialists in IT or AI) was born.
+          <br/><br/>
+          We therefore invite you to <strong>demystify</strong> these recent tools through several short videos (the series is still under construction and new videos are to come)."
+  footer:
+    socials:
+      fr: "Nous retrouver"
+      en: "Find us"
+    credits:
+      title:
+        fr: "Crédits"
+        en: "Credits"
+      credits:
+        fr: "Torres-Leguet, A., Romac, C., Carta, T., Oudeyer, P-Y. (2023) ChatGPT en 5mn: une série pédagogique pour le grand public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
+        en: "'Torres-Leguet, A., Romac, C., Carta, T., Oudeyer, P-Y. (2023) ChatGPT in 5 minutes: an educational series for the general public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
+

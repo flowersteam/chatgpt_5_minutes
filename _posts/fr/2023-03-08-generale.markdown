@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2023-03-08
+img: fr/miniature_generale.png
+alt: thumbnail
+project-date: Mars 2023
+link: https://www.youtube.com/watch?v=K8gOvC8gvB4
+download-link: https://flowers.inria.fr/chatgpt_en_5_minutes/generale.mov
+short-desc: "Cette vidéo est une introduction aux modèles de langage, qui sont à la base d’outils comme Chatgpt ou Bard."
+description: "<p>Cette vidéo est une introduction aux modèles de langage, qui sont à la base d’outils comme Chatgpt ou Bard. Elle s'adresse à un public large (par exemple élèves et enseignants de collèges et lycées, et plus généralement aux non spécialistes de l'informatique ou de l'IA). <br/><br/> En 5mn, elle fait un tour d'horizon des questions suivantes:</p> <ul><li>Comment ces modèles sont-ils \"entraînés\" ?</li><li>Sur quel type et quelle quantité de textes sont-ils entraînés, et quel est l'impact de la taille de ces corpus d'entraînement ?</li><li>Quell types de tâches sont-ils capables de réaliser, et comment peut on leur demander de réaliser ces tâches ?</li><li>Quelles sont leurs applications ?</li><li>Quels sont leurs limites et leurs biais ? Quels enjeux sociétaux ?</li><li>Quelles organisations développent ces modèles ? Certains sont-ils \"open-source\" ?</li></ul>"
+---

@@ -1,0 +1,46 @@
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-responsive logo" src="{{ site.url }}/img/profile.png" alt="profile-pic" />
+        <div class="intro-text">
+          <!-- <span class="name">{{ site.title }}</span> -->
+          <!-- <hr class="star-light" /> -->
+          <p>{{ site.texts.header[page.lang] }}</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="portfolio-item">
+          {% assign mainposts = site.posts | where: 'modal-id', 1 %}
+          {% for post in mainposts %}
+          {% if post.lang == page.lang %}
+          <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+          <div class="row download-section">
+            <div class="col-lg-6 cc-by">
+              <img src="{{ site.url }}/img/ccby.png" loading="lazy" width="77"/>*
+            </div>
+            <div class="col-lg-6">
+              Download:
+                  <a href="{{ post.download-link }}" download class="download">
+                    <i class="fa-solid fa-fw fa-download"></i>
+                </a>
+              </div>
+          </div>
+          <p>
+            {{ post.short-desc }}
+          </p>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
