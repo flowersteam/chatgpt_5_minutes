@@ -16,15 +16,17 @@
 </html>
 
 
-{% unless page.lang %}
+{% unless page.url contains "/en" or page.url contains "/fr"  %}
 <script type="text/javascript">
     $( document ).ready(function(){
         var userLang = navigator.language || navigator.userLanguage;
         console.log(userLang)
         if ((userLang == "en") || (userLang == "en-EN")) {
+            console.log("redirecting to en")
             window.location.href = "{{ site.url }}/en/"
         }
         else {
+            console.log("redirecting to fr")
             window.location.href = "{{ site.url }}/fr/"
         }
     });
