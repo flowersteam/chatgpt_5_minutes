@@ -21,11 +21,11 @@
     $( document ).ready(function(){
         var userLang = navigator.language || navigator.userLanguage;
         console.log(userLang)
-        if ((userLang == "fr") || (userLang == "fr-FR")) {
-            window.location.href = "{{ site.url }}/fr/"
+        if ((userLang == "en") || (userLang == "en-EN")) {
+            window.location.href = "{{ site.url }}/en/"
         }
         else {
-            window.location.href = "{{ site.url }}/en/"
+            window.location.href = "{{ site.url }}/fr/"
         }
     });
 </script>
