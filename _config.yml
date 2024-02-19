@@ -55,22 +55,28 @@ texts:
       fr: "ChatGPT expliqué en 5 minutes"
       en: "ChatGPT explained in 5 minutes"
     videos:
-      fr: "Vidéos"
-      en: "Videos"
+      fr: "Episodes"
+      en: "Episodes"
     about:
       fr: "A propos"
       en: "About"
   header:
-    fr: "Dans cette série de vidéos destinée au grand public, <strong>l’équipe de recherche</strong> <a href='https://flowers.inria.fr/' target='_blank'>
-         <strong>Flowers du centre Inria de l'Université de Bordeaux</strong> 
-         </a>vous propose de mieux comprendre <strong>comment fonctionnent les modèles de langage comme ChatGPT en 5 minutes</strong>."
-    en: "In this series of videos intended for the general public, <a href='https://flowers.inria.fr/' target='_blank'>
-         <strong>the Flowers research team from the Inria center at the University of Bordeaux</strong></a> 
-         offers you a better understanding of <strong>how language models like ChatGPT work in 5 minutes</strong>."
+    fr: "Dans cette série de <strong>vidéos pédagogiques</strong> destinée au grand public, l’équipe de recherche <a href='https://flowers.inria.fr/' target='_blank'>
+         <strong>Flowers du Centre Inria de l'université de Bordeaux</strong> 
+         </a>, spécialisée en Intelligence Artificielle (IA), vous propose de mieux comprendre <strong>comment fonctionnent les modèles de langage comme ChatGPT</strong>.
+         <br/>Constatant que la grande majorité des ressources éducatives sur ces modèles adoptait un format long et destiné à un public relativement averti, 
+         ce projet de vidéos au <strong>format court</strong> s’adresse en particulier aux <strong>élèves et enseignants de collèges et lycées</strong>, 
+         et plus généralement aux <strong>non spécialistes de l'informatique ou de l'IA</strong>."
+    en: "In this series of educational videos aimed at the general public, <a href='https://flowers.inria.fr/' target='_blank'>
+         <strong>the Flowers research team from the Inria Center at the University of Bordeaux</strong></a> , 
+         specialized in Artificial Intelligence (AI), invites you to better understand <strong>how language models like ChatGPT work</strong>. 
+         <br/>
+         Recognizing that the vast majority of educational resources on these models adopted a lengthy format aimed at a relatively knowledgeable audience, 
+         this project of <strong>short-format</strong> videos is particularly geared towards <strong>middle and high school students, as well as educators</strong>, and more generally towards <strong>non-specialists in computer science or AI</strong>."
   videos-section:
     title:
-      fr: "Vidéos"
-      en: "Videos"
+      fr: "Episodes"
+      en: "Episodes"
     cc-by-explanation:
       fr: "Ces vidéos sont libres de droits, avec une licence Creative Commons CC-BY. Cela veut dire qu'elles peuvent être utilisées librement, à la condition que leur source soit citée (voir Crédits)."
       en: "These videos are royalty-free, with a Creative Commons CC-BY license. This means that they can be used freely, provided that their source is cited (see Credits)."
@@ -79,12 +85,18 @@ texts:
       fr: "A propos"
       en: "About"
     text:
-      fr: "Spécialisée dans l’Intelligence Artificielle développementale, l’équipe Flowers étudie notamment les récents gros modèles de langage (ChatGPT, Bard...). Constatant que la grande majorité des ressources éducatives sur ces modèles adoptait un format long et destiné à un public relativement averti, ce projet de vidéos au format court destiné à un public large (par exemple élèves et enseignants de collèges et lycées, et plus généralement aux non spécialistes de l'informatique ou de l'IA) est né.
+      fr: "L’équipe <a href='https://flowers.inria.fr/' target='_blank'><strong>Flowers du Centre Inria de l'université de Bordeaux</strong> 
+          </a>, réalise des recherches scientifiques dans le domaine de <strong>l’Intelligence Artificielle développementale</strong>. 
+          En particulier, elle s’intéresse à la modélisation informatique des mécanismes d’apprentissage humain, et aux rôle de la <strong>curiosité et du langage</strong> dans le développement cognitif. 
+          Elle étudie aussi les propriétés des grands modèles de langage (ChatGPT, Mistral, etc), et développe des méthodes leur permettant d’être mieux ancrés dans le monde réel. 
           <br/><br/>
-          Nous vous proposons donc de <strong>démystifier</strong> ces récents outils au travers de plusieurs vidéos courtes (la série est toujours en cours de construction et de nouvelles vidéos sont à venir)."
-      en: "Specializing in developmental Artificial Intelligence, the Flowers team studies recent large language models (ChatGPT, Bard, etc.). Noting that the vast majority of educational resources on these models adopted a long format and intended for a relatively informed audience, this project of short format videos intended for a wide audience (for example middle and high school students and teachers, and more generally for not specialists in IT or AI) was born.
+          L’équipe étudie également des <strong>applications de ces travaux dans le domaine des technologies éducatives, ainsi que pour aider les scientifiques</strong> (physiciens, biologistes, etc) à explorer et à mieux comprendre de nouveaux systèmes (matériaux, réactions chimiques auto-organisées, etc)."
+      en: "The <a href='https://flowers.inria.fr/' target='_blank'><strong>Flowers team at the Inria Center of the University of Bordeaux</strong></a>
+          conducts scientific research in the field of <strong>developmental Artificial Intelligence</strong>. 
+          In particular, they are interested in the computer modeling of human learning mechanisms and the roles of <strong>curiosity and language</strong> in cognitive development. 
+          They also study the properties of large language models (ChatGPT, Mistral, etc.), and develop methods to better anchor them in the real world.
           <br/><br/>
-          We therefore invite you to <strong>demystify</strong> these recent tools through several short videos (the series is still under construction and new videos are to come)."
+          The team also investigates <strong>applications of these works in the field of educational technologies, as well as to assist scientists</strong> (physicists, biologists, etc.) in exploring and better understanding new systems (materials, self-organized chemical reactions, etc.)."
   footer:
     socials:
       fr: "Nous retrouver"
@@ -94,6 +106,6 @@ texts:
         fr: "Crédits"
         en: "Credits"
       credits:
-        fr: "Torres-Leguet, A., Romac, C., Carta, T., Oudeyer, P-Y. (2023) ChatGPT en 5mn: une série pédagogique pour le grand public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
-        en: "'Torres-Leguet, A., Romac, C., Carta, T., Oudeyer, P-Y. (2023) ChatGPT in 5 minutes: an educational series for the general public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
+        fr: "<a href=\"https://twitter.com/AlexandreTL2\" target=\"_blank\">Torres-Leguet, A.</a>, <a href=\"https://twitter.com/ClementRomac\" target=\"_blank\">Romac, C.</a>, <a href=\"https://twitter.com/CartaThomas2\" target=\"_blank\">Carta, T.</a>, <a href=\"https://twitter.com/pyoudeyer\" target=\"_blank\">Oudeyer, P-Y.</a> (2023) ChatGPT en 5mn: une série pédagogique pour le grand public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
+        en: "<a href=\"https://twitter.com/AlexandreTL2\" target=\"_blank\">Torres-Leguet, A.</a>, <a href=\"https://twitter.com/ClementRomac\" target=\"_blank\">Romac, C.</a>, <a href=\"https://twitter.com/CartaThomas2\" target=\"_blank\">Carta, T.</a>, <a href=\"https://twitter.com/pyoudeyer\" target=\"_blank\">Oudeyer, P-Y.</a> (2023) ChatGPT in 5 minutes: an educational series for the general public, CC-BY, https://developmentalsystems.org/chatgpt_en_5_minutes/"
 

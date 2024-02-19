@@ -10,9 +10,10 @@
     <div class="portfolio-flex-row">
       {% assign sortedposts = site.posts  | sort: 'date' %}
       {% for post in sortedposts %}
-      {% if post.lang == page.lang and post.modal-id != 1 %}
+      {% if post.lang == page.lang and post.episode != 1 %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <h4>Episode {{post.episode}}</h4>
+        <a href="#portfolioModal-{{ post.episode }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
@@ -20,6 +21,9 @@
           </div>
           <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
+        <p>
+          {{ post.short-desc }}
+        </p>
         <div class="row download-section">
           <div class="col-lg-6 cc-by">
             <img src="{{ site.url }}/img/ccby.png" loading="lazy" width="77"/>*
@@ -29,11 +33,8 @@
                 <a href="{{ post.download-link }}" download class="download">
                   <i class="fa-solid fa-fw fa-download"></i>
               </a>
-            </div>
+          </div>
         </div>
-        <p>
-          {{ post.short-desc }}
-        </p>
       </div>
       {% endif %}
       {% endfor %}

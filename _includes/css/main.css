@@ -85,7 +85,7 @@ hr.star-primary:after {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #{{ site.color.secondary }};
     /* background: #{{ site.color.primary }}; */
 }
@@ -98,7 +98,7 @@ header .container {
 header .logo {
     display: block;
     margin: 0 auto 20px;
-    width: 20%;
+    width: 15%;
 }
 
 header .intro-text .name {
@@ -113,6 +113,14 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+header .portfolio-item p {
+    padding: 0 15%;
+}
+
+header .portfolio-item h4 {
+    text-align: center;
 }
 
 @media(min-width:768px) {
@@ -247,10 +255,6 @@ section.success {
 
 .portfolio-item .download-section a.download:hover {
     color: #{{ site.color.primary }};
-}
-
-header .portfolio-item p {
-    padding: 0 15%;
 }
 
 .portfolio-link {
@@ -420,6 +424,10 @@ footer h3 {
 
 footer #credits {
     font-size: 1em;
+}
+
+footer #credits a {
+    color: #fff;
 }
 
 footer .footer-above {

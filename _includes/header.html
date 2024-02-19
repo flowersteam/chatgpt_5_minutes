@@ -12,9 +12,10 @@
       </div>
       <div class="col-lg-6">
         <div class="portfolio-item">
-          {% assign mainposts = site.posts | where: 'modal-id', 1 %}
+          {% assign mainposts = site.posts | where: 'episode', 1 %}
           {% for post in mainposts %}
           {% if post.lang == page.lang %}
+          <h4>Episode {{post.episode}}</h4>
           <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -23,6 +24,9 @@
             </div>
             <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
           </a>
+          <p>
+            {{ post.short-desc }}
+          </p>
           <div class="row download-section">
             <div class="col-lg-6 cc-by">
               <img src="{{ site.url }}/img/ccby.png" loading="lazy" width="77"/>*
@@ -34,9 +38,6 @@
                 </a>
               </div>
           </div>
-          <p>
-            {{ post.short-desc }}
-          </p>
           {% endif %}
           {% endfor %}
         </div>
