@@ -16,7 +16,7 @@
           {% for post in mainposts %}
           {% if post.lang == page.lang %}
           <h4>Episode {{post.episode}}</h4>
-          <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+          <a href="#portfolioModal-{{post.episode}}-{{post.lang}}" class="portfolio-link" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>

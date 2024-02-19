@@ -13,7 +13,7 @@
       {% if post.lang == page.lang and post.episode != 1 %}
       <div class="portfolio-flex-item portfolio-item">
         <h4>Episode {{post.episode}}</h4>
-        <a href="#portfolioModal-{{ post.episode }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-{{ post.episode }}-{{ post.lang }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
