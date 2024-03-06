@@ -15,9 +15,13 @@
           <div class="modal-body">
             <!-- <h2>{{ post.title }}</h2>
             <hr class="star-primary"> -->
+            {% if post.link %}
             <a href="{{ post.link }}" target="_blank" class="w-inline-block">
+            {% endif %}
               <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered main-img" alt="{{ post.alt }}">
+            {% if post.link %}
             </a>
+            {% endif %}
             {% if post.description %}
             <div class="description">{{ post.description }}</div>
             {% endif %}
