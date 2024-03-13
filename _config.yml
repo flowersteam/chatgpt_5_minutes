@@ -79,7 +79,7 @@ texts:
       en: "Episodes"
     cc-by-explanation:
       fr: "Ces vidéos sont libres de droits, avec une licence Creative Commons CC-BY. Cela veut dire qu'elles peuvent être utilisées librement, à la condition que leur source soit citée (voir Crédits)."
-      en: "These videos are royalty-free, with a Creative Commons CC-BY license. This means that they can be used freely, provided that their source is cited (see Credits)."
+      en: "These videos are royalty-free, with a Creative Commons CC-BY license. This means that they can be used freely, provided that their source is cited (see Credits). The voice in the english version of the series was synthesized using ElevenLabs (elevenlabs.io)."
   about-section:
     title:
       fr: "A propos"
