@@ -1,0 +1,12 @@
+---
+layout: default
+episode: 7
+date: 2024-05-21
+img: fr/miniature_outils.png
+alt: thumbnail
+project-date: Mai 2024
+link: https://www.youtube.com/watch?v=gUn79szTWw0
+download-link: https://flowers.inria.fr/chatgpt_5_minutes/tools.mov
+short-desc: "Les modèles de langage comme ChatGPT ou Gemini peuvent utiliser des outils pour les aider dans leurs réponses."
+description: "<p>Les modèles de langage comme ChatGPT ou Gemini sont capables de réaliser une grande diversité de tâches pour répondre aux besoins de leur utilisateur. Afin de tirer une meilleure partie de leurs compétences, on peut leur faire manipuler des outils lors de la rédaction de leur réponse.</p>"
+---
