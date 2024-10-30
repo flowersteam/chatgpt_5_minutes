@@ -1,0 +1,12 @@
+---
+layout: default
+episode: 8
+date: 2024-10-30
+img: fr/miniature_ancrage.png
+alt: thumbnail
+project-date: Octobre 2024
+link: https://www.youtube.com/watch?v=yS5oZH0YWLs
+download-link: https://flowers.inria.fr/chatgpt_5_minutes/ancrage.mov
+short-desc: "Cette vidéo s’intéresse à la possibilité d’employer les modèles de langage en tant qu’agent autonome capables de résoudre une tâche donnée."
+description: "<p>La plupart des utilisations des modèles de langage aujourd’hui se font au travers d’une conversation avec l’utilisateur. Cette vidéo s’intéresse à la possibilité d’employer ces modèles en tant qu’agent autonome capables de résoudre une tâche donnée.<br/>On étudie plus particulièrement le problème de l’ancrage, qui se résume à adapter les connaissances théoriques et livresques d’un modèle de langage au monde réel, afin qu’il puisse s’en servir en pratique.</p>"
+---

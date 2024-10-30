@@ -7,7 +7,7 @@ alt: thumbnail
 project-date: February 2024
 link: https://www.youtube.com/watch?v=YXT6mFjInaU
 download-link: https://flowers.inria.fr/chatgpt_5_minutes/EN_generale.mov
-short-desc: "This video is an introduction to large language models which are at the core of tools like ChatGPT or Bard."
-description: "<p>This video is an introduction to large language models which are the basis for tools like ChatGPT or Bard. They are intended for the general public (for instance students and professors in middle and high school, and more generally anyone not accustomed to computer science or AI).<br/><br/> This is a 5-minute overview answering these questions:
+short-desc: "This video is an introduction to large language models which are at the core of tools like ChatGPT, Gemini or Mistral."
+description: "<p>This video is an introduction to large language models which are the basis for tools like ChatGPT, Gemini or Mistral. They are intended for the general public (for instance students and professors in middle and high school, and more generally anyone not accustomed to computer science or AI).<br/><br/> This is a 5-minute overview answering these questions:
 :</p> <ul><li>How are these models \"trained\"?</li><li>On which type and amount of data are they trained, and what is the impact of the size of the training corpus?</li><li>Which types of tasks are they capable of doing, and how can we ask them to perform those tasks?</li><li>What are their main usages in society?</li><li>What are their limitations and biases? What social issues?</li><li>Which organizations develop these models? Are there \"open-sourced\" ones ?</li></ul><br/><p><i>The voice was synthesized using ElevenLabs (elevenlabs.io).</i></p>"
 ---
